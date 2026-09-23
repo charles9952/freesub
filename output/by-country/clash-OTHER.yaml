@@ -5,20 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.18.15.103
+  server: www.shopify.com
   port: 443
   udp: true
-  type: vless
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: server9.9966338.xyz
+  servername: guanwang.awsno.com
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /imnotarealherox
+    path: /hls/cctv5phd.m3u8
     headers:
-      Host: server9.9966338.xyz
+      Host: guanwang.awsno.com
 proxy-groups:
 - name: PROXIES
   type: select
