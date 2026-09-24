@@ -4,12 +4,30 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "trojan",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "62.113.41.165",
-      "server_port": 888,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hF-qqin2wYhP7zS47SyR0Q"
+      "server": "104.21.16.123",
+      "server_port": 443,
+      "password": "Telegram_healer_config",
+      "tls": {
+        "enabled": true,
+        "server_name": "7x7o3vtq5z6ymu3hv1fh-op9blt.hya6losm6lznoxhm6w3mk.workers.dev",
+        "insecure": true,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tr/qL8YIeH28wNcXfNTPgLCwOhNFEr?ed=2560",
+        "headers": {
+          "Host": "7x7o3vtq5z6ymu3hv1fh-op9blt.hya6losm6lznoxhm6w3mk.workers.dev"
+        }
+      }
     },
     {
       "type": "hysteria2",
@@ -24,8 +42,20 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "server": "msk.frkn.org",
+      "server_port": 443,
+      "password": "f317b5d6-d399-4d3d-a051-89d674ae953c",
+      "tls": {
+        "enabled": true,
+        "server_name": "msk.frkn.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
       "server": "fbsv6.guardora.pro",
       "server_port": 443,
       "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
@@ -56,7 +86,8 @@
         "auto",
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
       ]
     },
     {
@@ -65,7 +96,8 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
