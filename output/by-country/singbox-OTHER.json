@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "172.64.149.54",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.21.91.76",
       "server_port": 443,
-      "uuid": "fe34b5df-e634-4c83-a057-e53f41ce8e27",
+      "uuid": "a90c264d-3853-4eef-9a3d-628b2d02d15e",
       "tls": {
         "enabled": true,
-        "server_name": "lATE-LaB-d6A2.CIwodA8715.WoRKerS.DeV",
+        "server_name": "7-M19.South-aFRIca-onliNE.CCwu.cC",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiQ3dmV1d4OUFQdSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "path": "/CjBjB9sn5pCvaSwScc",
         "headers": {
-          "Host": "late-lab-d6a2.ciwoda8715.workers.dev"
+          "Host": "7-M19.sOuTH-afRiCa-OnlIne.ccwU.cC"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
