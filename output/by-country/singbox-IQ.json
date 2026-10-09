@@ -5,20 +5,27 @@
   "outbounds": [
     {
       "type": "trojan",
-      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "104.21.48.18",
-      "server_port": 2053,
-      "password": "e309e031-991e-4656-9934-44d10deb8fd8",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "188.114.97.3",
+      "server_port": 443,
+      "password": "pjg&JybcgFsca,+gQMa",
       "tls": {
         "enabled": true,
-        "server_name": "nimm.mpd.cc.cd",
-        "insecure": false
+        "server_name": "022XW1dmCZG0c6165pcLA6.tOMborn69.WoRKErs.Dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/0962",
+        "path": "/tr/4SzHKYN7XBvR1ddoFe2atydxL69?ed=2560",
         "headers": {
-          "Host": "nimm.mpd.cc.cd"
+          "Host": "022xw1dmczg0c6165pcla6.tomborn69.workers.dev"
         }
       }
     },
@@ -27,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
