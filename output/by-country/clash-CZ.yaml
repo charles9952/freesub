@@ -4,28 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇶 IQ 01 - xiaohe
-  server: 188.114.97.3
-  port: 443
+- name: 🇨🇿 捷克 (Czech) 01 - xiaohe
+  server: 194.87.6.192
+  port: 2097
   udp: true
   type: trojan
-  password: pjg&JybcgFsca,+gQMa
-  sni: 022XW1dmCZG0c6165pcLA6.tOMborn69.WoRKErs.Dev
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
+  sni: ger6.fytpn.com
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/4SzHKYN7XBvR1ddoFe2atydxL69?ed=2560
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
 rules:
 - MATCH,PROXIES
